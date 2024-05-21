@@ -124,6 +124,7 @@ button {
     padding: 2rem 0 5rem 0;
     color: #1F2937;
     position: relative;
+    overflow: hidden;
 }
 
 .informations h1 {
