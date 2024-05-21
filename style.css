@@ -70,6 +70,9 @@ h1{
     align-items: center;
     justify-content: center;
     color: #1F2937;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
 }
 
 .hero-content{
@@ -111,6 +114,7 @@ button{
     border: none;
     color: #fff;
     cursor: pointer;
+    box-shadow: 4px 4px 16px 0px rgba(0,0,0,0.75);
 }
 
 /* -------------Informations------------ */
@@ -221,9 +225,18 @@ a:hover{
 
 button:hover{
     background-color: #166efa;
+    box-shadow: 5px 5px 16px 0px rgba(0,0,0,0.50);
+}
+
+button:active{
+    background-color: #095fe9;
 }
 
 /* ------------Images------------ */
+
+img{
+    width: 100%;
+}
 
 .hero .background-image{
     position: absolute;
@@ -232,11 +245,7 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: -10;
-
-    & img{
-      width: 100%;  
-    }
+    z-index: -1;
 }
 
 .hero .background-image::before{
@@ -247,6 +256,7 @@ button:hover{
     background-color: #1F2937;
     opacity: 80%;
 }
+
 
 
 
