@@ -123,6 +123,7 @@ button {
     background-color: #fff;
     padding: 2rem 0 5rem 0;
     color: #1F2937;
+    position: relative;
 }
 
 .informations h1 {
@@ -150,7 +151,7 @@ button {
     text-align: center;
 }
 
-/* -------------Informations------------ */
+/* -------------Quotes------------ */
 
 .qoute-container {
     background-color: #E5E7EB;
@@ -285,3 +286,26 @@ img {
     opacity: 0.3;
 }
 
+.img-container{
+    height: 100%;
+    width: auto;
+    position: absolute;
+
+    & img{
+        height: 100%;
+        width: auto;
+    }
+}
+
+.informations .first-img{
+    bottom: 0;
+    right: -80px;
+}
+
+.informations .second-img{
+    top: 0;
+    left: 0;
+    height: 150px;
+    width: 150px;
+    transform:  scaley(-1);
+}
