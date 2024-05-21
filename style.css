@@ -204,7 +204,8 @@ button {
 /* -------------Footer------------ */
 
 footer {
-    background: #1F2937;
+    /* background: #1F2937; */
+    position: relative;
 }
 
 footer .content-wrapper {
@@ -238,7 +239,7 @@ img {
     width: 100%;
 }
 
-.hero .background-image {
+.hero .background-image, .footer-image{
     position: absolute;
     height: 100%;
     width: 100%;
@@ -246,9 +247,10 @@ img {
     justify-content: center;
     align-items: center;
     z-index: -1;
+    overflow: hidden;
 }
 
-.hero .background-image::before, .illustration::before {
+.hero .background-image::before, .illustration::before, .footer-image::before {
     content: '';
     position: absolute;
     height: 100%;
@@ -282,3 +284,4 @@ img {
 .illustration:hover::before {
     opacity: 0.3;
 }
+
