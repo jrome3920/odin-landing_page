@@ -191,7 +191,24 @@ button{
 
 .cta button{
     border: 2px solid #fff;
+    margin-top: 0;
 }
+
+/* -------------Footer------------ */
+footer{
+    background: #1F2937;
+}
+
+footer .content-wrapper{
+    padding: 2rem 0;
+}
+
+footer p{
+    text-align: center;
+    color: #fff;
+}
+
+
 
 
 
