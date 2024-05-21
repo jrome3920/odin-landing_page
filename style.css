@@ -195,6 +195,7 @@ button{
 }
 
 /* -------------Footer------------ */
+
 footer{
     background: #1F2937;
 }
@@ -207,6 +208,19 @@ footer p{
     text-align: center;
     color: #fff;
 }
+
+/* ------------Hover Transitions------------ */
+
+a:hover{
+    color: #3882F6;
+    text-decoration: underline;
+}
+
+button:hover{
+    background-color: #166efa;
+}
+
+
 
 
 
