@@ -116,6 +116,7 @@ button{
 /* -------------Informations------------ */
 
 .informations{
+    background-color: #fff;
     padding: 2rem 0 5rem 0;
     color: #1F2937;
 }
