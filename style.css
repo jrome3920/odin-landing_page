@@ -8,6 +8,9 @@
 .content-wrapper{
     max-width: 1000px;
     margin: auto;
+}
+
+.hero .content-wrapper{
     height: 100vh;
 }
 
@@ -51,7 +54,7 @@ li{
     margin-left: 1rem;
 }
 
-h1.header-logo{
+h1{
     font-size: 24px;
 }
 
@@ -106,4 +109,36 @@ button{
     border: none;
     color: #fff;
     cursor: pointer;
+}
+
+/* -------------Informations------------ */
+
+.informations{
+    height: 500px;
+}
+
+.informations h1{
+    text-align: center;
+    color: #000;
+    margin: 2rem 0;
+}
+
+.info-illustrations{
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
+    justify-content: center;
+    gap: 2rem;
+}
+
+.illustration{
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+    width: 120px;
+    height: 120px;
+}
+
+.ill-item p{
+    margin-top: .5rem;
+    font-size: 14px;
+    text-align: center;
 }
