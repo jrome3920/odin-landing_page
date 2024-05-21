@@ -166,3 +166,32 @@ button{
     font-weight: bold;   
     text-align: end;
 }
+
+/* -------------Call to Action------------ */
+
+.cta .content{
+    background-color: #3882F6;
+    padding: 2rem;
+    margin: 4rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    border-radius: 12px;
+}
+
+.cta .text-container{
+    grid-column: span 2;
+    color: #fff;
+}
+
+.cta .button-container{
+    justify-content: center;
+    align-items: center;
+}
+
+.cta button{
+    border: 2px solid #fff;
+}
+
+
+
