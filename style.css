@@ -19,7 +19,9 @@
 }
 
 .hero {
-    background-color: #1F2937;
+    /* background-color: #1F2937; */
+    position: relative;
+    
 }
 
 .hero,
@@ -218,6 +220,31 @@ a:hover{
 
 button:hover{
     background-color: #166efa;
+}
+
+/* ------------Images------------ */
+
+.hero .background-image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -10;
+
+    & img{
+      width: 100%;  
+    }
+}
+
+.hero .background-image::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #1F2937;
+    opacity: 80%;
 }
 
 
